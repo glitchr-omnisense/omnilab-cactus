@@ -47,4 +47,17 @@ number resolution); problems go to the NCI Cactus team. OPSIN is open source (MI
 Murray-Rust, P., Glen, R. C., Chemical Name to Structure: OPSIN, an Open Source Solution, J. Chem.
 Inf. Model. 51, 739-753 (2011).
 
+## Responsibility
+
+This package is an independent, unofficial client: it is not affiliated with, endorsed by or
+sponsored by the NCI/CADD Chemical Identifier Resolver and OPSIN (EMBL-EBI). It reaches their service on behalf of whoever runs it, and it does not
+redistribute their data beyond the short excerpts recorded as test fixtures. Its MIT licence
+covers this package's code only and grants no right to the service or to its data.
+
+Whoever installs and runs this package is responsible for complying with the terms above, for
+obtaining whatever they require (an account, a key, a licence or subscription, an attribution or
+a citation, a rate limit to respect), and for any use made of what it returns. The authors
+publish it free of charge, make no commercial use of it, and accept no liability for how it is
+used (see [LICENSE](LICENSE)).
+
 License (of this package's code): MIT.
