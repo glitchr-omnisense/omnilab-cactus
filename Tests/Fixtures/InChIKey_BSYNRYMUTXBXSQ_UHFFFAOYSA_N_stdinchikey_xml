@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<request string="InChIKey=BSYNRYMUTXBXSQ-UHFFFAOYSA-N" representation="stdinchikey">
+
+	
+	<data id="1" resolver="stdinchikey" string_class="Standard InChIKey" notation="InChIKey=BSYNRYMUTXBXSQ-UHFFFAOYSA-N">	
+		
+			
+			<item id="1">InChIKey=BSYNRYMUTXBXSQ-UHFFFAOYSA-N</item>
+			
+			
+		
+	</data>	
+	
+	
+	
+
+</request>
+
+

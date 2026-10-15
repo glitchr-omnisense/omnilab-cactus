@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<request string="InChI=1S/C10H16O4/c1-5-3-7(5)8(4-9(11)12)6(2)10(13)14/h5-8H,3-4H2,1-2H3,(H,11,12)(H,13,14)" representation="stdinchikey">
+
+	
+	<data id="1" resolver="stdinchi" string_class="Standard InChI" notation="InChI=1S/C10H16O4/c1-5-3-7(5)8(4-9(11)12)6(2)10(13)14/h5-8H,3-4H2,1-2H3,(H,11,12)(H,13,14)">	
+		
+			
+			<item id="1">InChIKey=FXGUYTPXVQMBEG-UHFFFAOYSA-N</item>
+			
+			
+		
+	</data>	
+	
+	
+	
+
+</request>
+
+

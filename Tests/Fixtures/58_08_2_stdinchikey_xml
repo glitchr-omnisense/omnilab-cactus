@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<request string="58-08-2" representation="stdinchikey">
+
+	
+	<data id="1" resolver="name_by_cir" string_class="chemical name (CIR)" notation="58-08-2">	
+		
+			
+			<item id="1">InChIKey=RYYVLZVUVIJVGH-UHFFFAOYSA-N</item>
+			
+			
+		
+	</data>	
+	
+	
+	
+
+</request>
+
+

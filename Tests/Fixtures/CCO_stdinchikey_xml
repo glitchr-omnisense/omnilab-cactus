@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<request string="CCO" representation="stdinchikey">
+
+	
+	<data id="1" resolver="smiles" string_class="SMILES string" notation="CCO">	
+		
+			
+			<item id="1">InChIKey=LFQSCWFLJHTTHZ-UHFFFAOYSA-N</item>
+			
+			
+		
+	</data>	
+	
+	
+	
+
+	
+	<data id="2" resolver="name_by_cir" string_class="chemical name (CIR)" notation="CCO">	
+		
+			
+			<item id="1">InChIKey=BGDMJXZYDKFEGJ-UHFFFAOYSA-N</item>
+			
+			
+		
+	</data>	
+	
+	
+	
+
+</request>
+
+

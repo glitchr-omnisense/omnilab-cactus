@@ -1,0 +1,46 @@
+{
+    "name": "omnilab/cactus",
+    "type": "library",
+    "description": "Omnilab Cactus: the NCI/CADD Chemical Identifier Resolver - a structure from a name, a CAS number, an InChIKey, an InChI or a SMILES, and its standard InChIKey, InChI, SMILES, IUPAC name, formula, molecular weight, CAS numbers, names and picture; OPSIN for a name it cannot read; no key.",
+    "keywords": [
+        "science",
+        "chemistry",
+        "cactus",
+        "cir",
+        "opsin",
+        "inchi",
+        "smiles",
+        "omnilab"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marco Meyer",
+            "email": "marco.meyer@glitchr.io"
+        }
+    ],
+    "require": {
+        "php": ">=8.2",
+        "glitchr/omnilab": "^1.0@dev",
+        "symfony/http-client": "^6.4|^7.0|^8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Omnilab\\Cactus\\": ""
+        },
+        "exclude-from-classmap": [
+            "/Tests/"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Omnilab\\Cactus\\Tests\\": "Tests/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
