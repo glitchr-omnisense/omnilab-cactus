@@ -58,12 +58,12 @@ IUPAC name, the InChIKey. `synonyms`: CIR's names (`names` of them), the CAS num
 
 The InChIKey, the InChI and the CAS numbers are identifiers other sources read: with PubChem (or
 ChEBI, ChEMBL) configured, `$collector->collect('cactus', 'caffeine', 1, ['pubchem'])` follows the
-InChIKey into PubChem - walked on 2026-10-16 (see `.samples/live.php`). CIR is the entry point for
+InChIKey into PubChem - walked on 2026-10-15 (see `.samples/live.php`). CIR is the entry point for
 what has no id yet: a name, a SMILES, a drawn structure's InChI.
 
 ## Verified, and not
 
-Against the real services on 2026-10-16: caffeine by its name (read by CIR's OPSIN), by its CAS
+Against the real services on 2026-10-15: caffeine by its name (read by CIR's OPSIN), by its CAS
 number (read as a name by CIR's tables) and by InChIKey; "CCO" (read as a SMILES: ethanol, though
 CIR also reads it as another compound's name); aspirin by its InChIKey; an InChI whose structure CIR
 holds no name for (its formula and weight computed; no IUPAC name, CAS or names: 404s); "zzqqxx"

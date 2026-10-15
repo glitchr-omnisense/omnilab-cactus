@@ -16,7 +16,7 @@ use Symfony\Component\HttpClient\MockHttpClient;
 use Symfony\Component\HttpClient\Response\MockResponse;
 
 /**
- * Fixtures recorded from cactus.nci.nih.gov on 2026-10-16, each
+ * Fixtures recorded from cactus.nci.nih.gov on 2026-10-15, each
  * representation of caffeine (by its name and its CAS number), of "CCO"
  * (a SMILES: ethanol) and of aspirin by its InChIKey; an empty XML answer
  * for "zzqqxx", and OPSIN's 404 for it; OPSIN's answer for

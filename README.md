@@ -33,7 +33,7 @@ omnilab:
 ## Why OPSIN is here, not a package of its own
 
 CIR already reads systematic names with OPSIN first (its resolver `name_by_opsin`: caffeine, the
-λ-convention names, fused rings... all read that way on 2026-10-16). OPSIN holds no record and no
+λ-convention names, fused rings... all read that way on 2026-10-15). OPSIN holds no record and no
 identifier - it is a parser, not a base -, so it is no other source for the `Collector`: it is the
 same question (a name -> a structure) asked of the current parser when CIR's fails or is out of
 date. One call to the EBI's OPSIN web service, then CIR by the InChI OPSIN gave.
