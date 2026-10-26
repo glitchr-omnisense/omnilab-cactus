@@ -1,7 +1,7 @@
 # omnilab/cactus
 
 The NCI/CADD Chemical Identifier Resolver (CIR, cactus.nci.nih.gov) for
-[omniscient/omnilab](https://github.com/glitchr-studio/omnilab): a structure from whatever names it -
+[omnisense/omnilab](https://github.com/glitchr-omnisense/omnilab): a structure from whatever names it -
 a name, a CAS number, an InChIKey, a standard InChI, a SMILES - and its other identifiers and
 representations: standard InChIKey (its id here), InChI, SMILES, IUPAC name, formula, molecular
 weight, CAS numbers, names, a picture. A name CIR cannot read is given to OPSIN (the IUPAC name
