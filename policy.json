@@ -1,0 +1,40 @@
+{
+    "$schema": "https://github.com/glitchr-omnisense/contracts/blob/1.x/resources/usage-policy.schema.json",
+    "provider": "cactus",
+    "rateLimits": null,
+    "concurrency": null,
+    "rights": {
+        "commercial": "unknown",
+        "openSourceRequired": null,
+        "caching": {
+            "permission": "unknown",
+            "maxTtl": null
+        },
+        "storage": "unknown",
+        "redistribution": "unknown",
+        "attribution": {
+            "required": false,
+            "text": "NCI/CADD Group Chemical Identifier Resolver; OPSIN: Lowe D.M. et al. (2011) J. Chem. Inf. Model. 51, 739-753",
+            "url": "https://cactus.nci.nih.gov/chemical/structure",
+            "where": [
+                "source"
+            ]
+        },
+        "licence": null
+    },
+    "requirements": {
+        "key": false,
+        "userAgent": {
+            "required": false,
+            "pattern": null
+        }
+    },
+    "provenance": {
+        "terms": "https://cactus.nci.nih.gov/ncicadd/disclaimer.html",
+        "policy": "https://cactus.nci.nih.gov/chemical/structure_documentation",
+        "verifiedAt": "2026-11-10",
+        "declaredBy": "maintainer",
+        "contact": "https://cactus.nci.nih.gov/ncicadd/contact.html",
+        "notes": "CIR pages read 2026-11-10 (service page, documentation, disclaimer): no rate limit, no terms of use, no licence; the disclaimer only disclaims warranty, endorsement and medical use, and says many structures derive from public information. Documentation contact: Markus Sitzmann (NCI/CADD). No rate headers on a test call. The source also calls EMBL-EBI's OPSIN web service (www.ebi.ac.uk/opsin/ws/), under EMBL-EBI's terms of use (no figure, overload gets blocked); OPSIN is MIT-licensed software and asks to be cited (a request)."
+    }
+}

@@ -47,6 +47,17 @@ number resolution); problems go to the NCI Cactus team. OPSIN is open source (MI
 Murray-Rust, P., Glen, R. C., Chemical Name to Structure: OPSIN, an Open Source Solution, J. Chem.
 Inf. Model. 51, 739-753 (2011).
 
+## Usage policy
+
+Declared as data in [`policy.json`](policy.json) (read at https://cactus.nci.nih.gov/chemical/structure_documentation on 2026-11-10), and honoured on every request by the
+core: a limit reached waits when its window ends within `max_wait` seconds, else the request is not
+sent ([Usage policies](https://github.com/glitchr-omnisense/omnilab/blob/1.x/docs/policies.md)).
+
+- Limits: not published (unknown).
+- Licence: not stated; commercial use: unknown.
+- Credit: not required: NCI/CADD Group Chemical Identifier Resolver; OPSIN: Lowe D.M. et al. (2011) J. Chem. Inf. Model. 51, 739-753 (https://cactus.nci.nih.gov/chemical/structure).
+- Needs: nothing.
+
 ## Responsibility
 
 This package is an independent, unofficial client: it is not affiliated with, endorsed by or

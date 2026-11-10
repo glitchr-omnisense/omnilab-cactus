@@ -165,6 +165,7 @@ final class CactusSource extends HttpSource
         }
         $this->last = microtime(true);
         $url = rtrim($this->baseUri, '/').'/'.str_replace('%2F', '/', rawurlencode($structure)).'/'.$representation;
+        $this->governed('GET', $url);
         try {
             $response = $this->http->request('GET', $url, ['headers' => $this->headers]);
             $status = $response->getStatusCode();
