@@ -30,6 +30,35 @@ omnilab:
                 opsin: true                    # a name CIR cannot read goes to OPSIN (false: never)
 ```
 
+## Install and a first call
+
+```sh
+composer require omnilab/cactus
+```
+
+A real call, with no account and no key: caffeine resolved from its CAS number by the NCI/CADD
+Chemical Identifier Resolver. `mailto` is your address, sent in the User-Agent so that the service
+can reach you before it blocks a caller; the source keeps to the limits its
+[`policy.json`](policy.json) declares.
+
+```php
+<?php
+
+require __DIR__.'/vendor/autoload.php';
+
+use Omnilab\Cactus\CactusSourceFactory;
+
+$cactus = (new CactusSourceFactory())->create(['mailto' => 'you@example.org']);   // your address, in the User-Agent
+$caffeine = $cactus->entity('58-08-2');
+echo $caffeine->label, ', ', $caffeine->id, ', ', $caffeine->property('molecular_weight'), "\n";
+```
+
+Its output on 2026-11-13:
+
+```
+1,3,7-trimethylpurine-2,6-dione, inchikey:RYYVLZVUVIJVGH-UHFFFAOYSA-N, 194.1926 g/mol
+```
+
 ## Why OPSIN is here, not a package of its own
 
 CIR already reads systematic names with OPSIN first (its resolver `name_by_opsin`: caffeine, the
